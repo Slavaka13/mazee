@@ -24,6 +24,7 @@ class MazeGenerator
                 map[y, x] = '█';
 
         Carve(1, 1);
+        //
         return map;
     }
 

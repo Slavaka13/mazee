@@ -8,7 +8,7 @@ class Program
         Console.CursorVisible = false;
 
         Maze maze = new Maze(71, 41); // ширина 81, высота 41
-
+///
 
         int playerX = maze.StartX;
         int playerY = maze.StartY;
