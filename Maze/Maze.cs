@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 class Maze
 {
+
     public char[,] Map { get; private set; }
     public int Width => Map.GetLength(1);
     public int Height => Map.GetLength(0);
@@ -12,6 +13,11 @@ class Maze
     public int ExitY { get; private set; }
 
     private List<(int x, int y)> currentPath = null;
+
+
+
+    //  
+
 
     public Maze(int width, int height)
     {
